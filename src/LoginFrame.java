@@ -35,7 +35,7 @@ public class LoginFrame extends JFrame {
             JBGO.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    if(JTID.getText().equals("h304") && new String(JTPW.getPassword()).equals("23323456")){
+                    if(JTID.getText().equals("") && new String(JTPW.getPassword()).equals("")){
                         System.out.println("Yes! ");
                         LoginFrame lg = new LoginFrame();
                         lg.setVisible(false);
